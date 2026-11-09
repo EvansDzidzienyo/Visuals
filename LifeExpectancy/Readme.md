@@ -1,68 +1,36 @@
-![Life Expectancy Thumbnail](Thumb.jpg)
+![Life expectancy report preview](Thumb.jpg)
 
-# Life Expectancy, Health Expenditure, and GDP Analysis
+# Life Expectancy, Health Expenditure and GDP Analysis
 
-## Overview  
-This project presents an in-depth analysis of life expectancy, health expenditure, and GDP across continents, leveraging data visualization tools to uncover insights. The aim is to identify patterns and regional disparities that could inform stakeholders and drive data-driven decision-making.  
+## Overview
 
-The analysis focuses on three core aspects:  
-1. **Life Expectancy** - Average life expectancy across continents.  
-2. **Health Expenditure** - Trends in total health expenditure over time by continent.  
-3. **GDP Composition** - Contribution of different continents to global GDP.  
+This project uses Excel and Power BI to explore life expectancy, health expenditure and GDP indicators across continents. Aggregating country-level observations by continent was used to make broad regional comparisons easier to interpret.
 
-The project showcases the use of Power BI for advanced data visualization and insight generation(Png files show visual analysis)
+## Questions explored
 
----
+1. How does average life expectancy vary across continents?
+2. How did health expenditure change across the available years?
+3. How is GDP distributed across the continental groupings in the dataset?
 
-## Features  
-- **Interactive Dashboards**: Detailed visualizations for life expectancy, health expenditure trends, and GDP by continent.   
-- **Regional Analysis**: Comparison of metrics across continents to highlight disparities and trends.  
-- **Dynamic Storytelling**: Tailored messages to explain complex visualizations effectively.  
+## Report visuals
 
----
+- Life expectancy comparisons by continent
+- Health expenditure trends over the period represented in the workbook
+- GDP composition by continent
 
-## Visualizations  
-1. **Life Expectancy by Continent**:  
-   - A bar chart illustrating average life expectancy across continents.  
-   - Insight: Europe leads in average life expectancy, while Africa records the lowest.  
+The existing report notes describe Europe as having the highest average life expectancy and Africa the lowest in the analysed data. These are dataset-specific observations, not universal claims.
 
-2. **Health Expenditure Trends**:  
-   - An area chart depicting total health expenditure from 2000 to 2015 across continents.  
-   - Insight: Health expenditure increased consistently, with variations in regional growth rates.  
+## Data and tools
 
-3. **GDP Composition by Continent**:  
-   - A treemap showcasing the share of global GDP by continent.  
-   - Insight: Europe contributes the largest share, with potential outliers in specific regions.  
+- `Life Expectancy Data - Life Expectancy Data.xlsx` — source/preparation workbook
+- `Global Health Report.pbix` — interactive Power BI report
+- PNG files — static report previews
+- Excel · Power BI
 
----
+## View the report
 
-## Key Insights  
-- **Data Interpretation Challenges**: Due to the large number of countries, direct visualizations were difficult to interpret. Aggregating data by continent enabled clearer insights.  
-- **Outlier Awareness**: The analysis highlighted potential outliers in GDP composition for certain continents, which warrant further investigation.  
-- **Health Expenditure Impact**: Regions with higher health expenditure tend to record better life expectancy outcomes, though additional factors may influence this trend.  
+Open the PBIX file in [Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/desktop).
 
----
+## Interpretation note
 
-## Tools Used  
-- **Power BI**: For creating dynamic and interactive visualizations.  
-- **Microsoft Excel**: For data preprocessing and analysis.  
-
----
-
-## How to Use  
-1. Clone the repository to your local machine:  
-   ```bash
-   git clone https://github.com/Codeking/life-expectancy-analysis.git
-   ```  
-2. Open the Power BI report (`Life_Expectancy_Analysis.pbix`) to explore the visualizations.  
-3. Review the insights and recommendations outlined in the included documentation.
-
----
-
-## Recommendations  
-- **Future Research**: Investigate specific factors driving outliers in GDP and health expenditure.  
-- **Policy Implications**: Use findings to guide regional investment in health infrastructure.  
-- **Additional Metrics**: Consider incorporating factors like education, employment, and urbanization for deeper insights.  
-
----
-Feel free to use, adapt, or improve upon this analysis for research or educational purposes. Feedback is welcome!  
+Continental aggregation can conceal substantial differences between countries. The observed relationship between health expenditure and life expectancy is descriptive; it does not establish causality. Data coverage, indicator definitions and outliers should be considered when interpreting the visuals.
