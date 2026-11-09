@@ -1,34 +1,38 @@
-![Sales Preview](Thumb.jpg)
-
+![Sales dashboard preview](Thumb.jpg)
 
 # Fruit and Vegetable Sales Analysis
 
-### Overview
-This project provides an in-depth analysis of fruit and vegetable sales trends across selected countries, aimed at identifying patterns and insights to support business and strategic decision-making. The data was cleaned and prepared in Excel, with conditional formatting applied to enhance readability. An interactive dashboard was also developed in Excel to visualize key metrics, making it easier to identify trends at a glance.
+## Overview
 
-### Project Details
-- **Data Cleaning**: Performed in Excel to ensure data quality and consistency. This included handling missing values, correcting data types, and standardizing formats.
-- **Conditional Formatting**: Applied in Excel to highlight significant values, trends, and anomalies within the dataset, making insights more accessible.
-- **Dashboard Creation**: Designed an interactive dashboard in Excel to visualize and summarize the sales performance across different countries and time periods.
+This project analyses fruit and vegetable sales across selected countries and time periods. Excel was used for data preparation and an initial dashboard; Power BI was used to build an interactive report for further exploration.
 
-### Power BI Visualizations
-The Power BI report builds upon the Excel analysis, offering more dynamic visualizations and drill-down capabilities. Key metrics and visuals include:
-- **Sales Trends Over Time**: Line charts showcasing seasonal patterns and annual growth rates.
-- **Country-wise Performance**: Bar and column charts comparing sales volume and revenue across countries.
-- **Product Breakdown**: Pie charts and bar charts to show sales distribution across different types of fruits and vegetables.
-- **KPIs**: Key performance indicators to highlight high-level metrics such as total revenue, average sales per country, and top-performing products.
+## Work completed
 
-### Skills and Tools Used
-- **Excel**: Data cleaning, conditional formatting, and dashboard design.
-- **Power BI**: Data visualization and interactive dashboard creation.
+- Cleaned and prepared the source workbook in Excel.
+- Reviewed missing values, data types and inconsistent formats.
+- Used conditional formatting to make important values and patterns easier to inspect.
+- Built an Excel dashboard and a Power BI report.
 
-### How to Access the Report
-To view the Power BI report:
-1. Download the `.pbix` file from this repository.
-2. Open it in Power BI Desktop to explore the dashboard and interact with the visuals.
+## Report contents
 
-### Insights
-This analysis provides valuable insights, including:
-- Seasonal sales fluctuations in the fruit and vegetable market.
-- Top-performing countries and products, supporting strategic decisions for market focus.
-- Potential growth areas based on comparative sales performance.
+The Power BI report includes views of:
+- Sales trends over time
+- Country-level performance comparisons
+- Sales distribution by product
+- Summary indicators such as revenue and average sales
+
+The exact interpretation of each KPI depends on the measure definitions in the PBIX model.
+
+## Files
+
+- `Fruit Sales Performance.pbix` — interactive Power BI report
+- `Sales Project.xlsx` — source/preparation workbook
+- `Product_Sales_Analysis.png`, `Sales_Overview.png`, `Sales_Performance.png` — report previews
+
+## View the report
+
+Open the PBIX file in [Power BI Desktop](https://www.microsoft.com/power-platform/products/power-bi/desktop).
+
+## Tools
+
+Excel · Power BI
